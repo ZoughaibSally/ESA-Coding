@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(135, 227, 244);
+}
+
+.form1,
+.form2 {
+  background-color: blue;
+  box-shadow: 4px 4px 10px gray;
+}
+
+.form1:hover,
+.form2:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+}
+
+.line {
+  border: 0;
+  height: 5px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+h5 {
+  color: white;
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 4px 4px 10px black;
+}
+
+#fruitsCard ul.list-group li {
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+#generalCard ul.list-group li {
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+#legumesCard ul.list-group li {
+  font-weight: bold;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
